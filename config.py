@@ -11,10 +11,10 @@ API_ID = int(getenv("API_ID", "28294093"))
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7569306898:AAHYH63zVYJtl_qIw31Lvs87wXu69c3127I")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Riya9797:Riyamusiczxbot@cluster0.eyy5z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20000))
 
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/mtv",
+    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/krishna",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @king_string_session_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGvu80AFK9sNjc9-kC9oAfpGJ9gif149I8z9RfqwreO8vUb0IsIQKJnxuNzEg6bwwNj5Nq5XpDMZYBnUxS1_IuggrTno-aZ_Hl2hzxCMu9BWe8mtGn3RLwvhWYap_FUGwTjsYkEvPd7f0YhnjXyBmDj5_PT-XtJQIym9k_kj_abjrtFOQRP1OxVjlAL9xJOLF7Z-uXFQxh7tg_3ItKU17g7scnP7fIz0SpDjGEkbNRR3-oHQRyEwoXArjqS-el1Yf5CMo_MAGKkik7BL2gRY2ODXrOP3Sqk1DhtaJF_7iKgmJIfoKjeaw-I7PE-ZLg9po5PhMs60lM5N1CjfCh3C_Q9uGftSAAAAAHKXA1NAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
